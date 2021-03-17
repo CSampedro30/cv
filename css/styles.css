@@ -33,13 +33,3 @@ font-family: 'Crimson Text', serif;
 p {
     font-size: 1.3em;
 }
-
-.hideButton {
-    background-color: #7a7f85;
-    color: #7a7f85;
-}
-
-.hideButton:hover {
-    color: white;
-    background-color: black;
-}
