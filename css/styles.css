@@ -2,6 +2,10 @@ h1 {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
+h2 {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
 h3 {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
@@ -22,14 +26,26 @@ ul {
 footer, i {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
+
 .projets {
     margin-right: 200px;
 }
 
 body {
-font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Text', serif;
 }
 
 p {
     font-size: 1.3em;
+}
+
+#ls {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    margin-left: 35%;
+}
+
+.navcolor {
+    background-color: rgb(245, 147, 0);
 }
