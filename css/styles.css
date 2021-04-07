@@ -24,7 +24,8 @@ footer, i {
 }
 
 .projets {
-    margin: auto;
+   margin-right: 17%;
+   margin-bottom: 2%;
 }
 
 body {
@@ -49,4 +50,8 @@ p {
 #truc {
     font-size: 1.2em;
     font-style: bold;
+}
+
+.lol{
+    margin-left: 10%;
 }
