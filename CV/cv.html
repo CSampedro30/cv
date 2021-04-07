@@ -22,21 +22,35 @@
 
 
 <body>
-    <header class="container-fluid bg-secondary mb-2 text-light border border-3">
+    <header class="container-fluid bg-secondary border-dark border text-light">
         <!--En tete de la page, avec titre et img-->
         <h1 class="text-center bi bi-briefcase-fill"> Sampedro Cyril</h1>
-        <h3 class="text-center">Développeur/Développeur Web</h3>
+        <h3 class="text-center">Développeur</h3>
         <p class="text-center headerp">
             <br> Autodidacte dans le domaine numérique. Motivé et impliqué je recherche un emploi en tant
-            que Développeur/ Développeur Web. Je suis actuellement stagiaire chez Avenir84, en formation Développeur
+            que Développeur. Je suis actuellement stagiaire chez Avenir84, en formation Développeur
             JAVA JEE.
         </p>
 
     </header>
 
-    <!--Infos supplementaires et coordoonnées-->
-        <div>
-            <div class="card col-sm-12 col-md-6 col-lg-6 border" id="cotegauche" style="width: 18rem;">
+    <nav class="navbar navbar-expand-lg navbar-light navcolor">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="../CV/cv.html">Portfolio<span class="sr-only"></span></a>
+                <a class="nav-link active" href="#" id="xp">Expériences</a>
+                <a class="nav-link active" href="../index.html">A propos de moi</a>
+            </div>
+        </div>
+    </nav>
+    <div>
+        <!--Infos supplementaires et coordoonnées-->
+        <div class="bg-dark border border-secondary">
+            <div class="card col-sm-12 col-md-1 col-lg-2 border fixed-left" style="width: 18rem;">
                 <div class="spinner-grow text-dark" role="status">
                 </div>
                 <p> <a href="../img/moi_cv_html.jpeg" target="_blank"> <img src="../img/moi_cv_miniature.jpg"
@@ -68,11 +82,11 @@
 
         </div>
 
-        <main class="container d-flex justify-content-end">
+        <main class="container">
 
             <div class="row">
                 <!--Block sur mes compétences-->
-                <div class="col-sm-12 col-md-6 col-lg-6 shadow-lg p-3 mb-4 bg-body border">
+                <div class="col-sm-12 col-md-5 col-lg-5 shadow-lg p-3 mb-4 bg-body border">
                     <h2 class="bi bi-tools"> Mes compétences</h2>
                     <ul>
                         <li class="bi bi-chevron-left py-3">ul<span class="bi bi-chevron-right"></span></li> <br>
@@ -92,13 +106,21 @@
                         <li class="bi bi-chevron-left">li<span class="bi bi-chevron-right"></span> JAVA SE <span
                                 class="bi bi-chevron-left">/ li</span><span class="bi bi-chevron-right"></span>
                         </li>
+                        <li class="bi bi-chevron-left">li<span class="bi bi-chevron-right"></span> MYSQL <span
+                                class="bi bi-chevron-left">/ li</span><span class="bi bi-chevron-right"></span>
+                        </li>
                         <li class="bi bi-chevron-left">li<span class="bi bi-chevron-right"></span> Administration
                             système
                             linux <span class="bi bi-chevron-left">/ li</span><span class="bi bi-chevron-right"></span>
                         </li>
                         <li class="bi bi-chevron-left">li<span class="bi bi-chevron-right"></span> Anglais <span
                                 class="bi bi-chevron-left">/ li</span><span class="bi bi-chevron-right"></span>
-                        </li>
+                        </li>   <br>
+
+                        <li class="bi bi-chevron-left">h3<span class="bi bi-chevron-right"></span><span id="truc"> SOFT SKILLS </span><span
+                                class="bi bi-chevron-left">/ h3</span><span class="bi bi-chevron-right"></span>
+                        </li>   <br>
+
                         <li class="bi bi-chevron-left">li<span class="bi bi-chevron-right"></span> Adaptation <span
                                 class="bi bi-chevron-left">/ li</span><span class="bi bi-chevron-right"></span>
                         </li>
@@ -117,7 +139,7 @@
                 </div>
 
                 <!--Block sur mes experiences-->
-                <div class="col-sm-12 col-md-6 col-lg-6 shadow-lg p-3 mb-4 bg-body border">
+                <div class="col-sm-12 col-md-5 col-lg-5 shadow-lg p-3 mb-4 bg-body border">
                     <h2 class="bi bi-pin-angle"> Mes Experiences</h2>
                     <ul>
                         <li class="bi bi-chevron-left">div<span class="bi bi-chevron-right"></span></li>
@@ -137,7 +159,9 @@
                         <li>Service Client, Vente, Accueil, Encaissements, Contrôle
                             des stocks, Financements de crédits à la
                             consommation. (Employé Polyvalent),</li>
-                        <li>Boulanger SA.</li>
+                        <li>Boulanger SA.</li> <br>
+
+                        <li>Plus d'informations dans mes<a href="#xp"> Expériences</a>.</li> <br>
 
                         <li class="bi bi-chevron-left">/ div<span class="bi bi-chevron-right"></span></li>
 
@@ -163,6 +187,7 @@
                     domaine. <span class="bi bi-chevron-left"></span>/p<span class="bi bi-chevron-right"></span></p>
             </div>
         </section>
+    </div>
 
     <!--Footer bas de la page-->
     <footer class="container-fluid py-2 bg-secondary text-light">
