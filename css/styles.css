@@ -24,8 +24,8 @@ footer, i {
 }
 
 .projets {
-   margin-right: 17%;
-   margin-bottom: 2%;
+    margin-right: 17%;
+    margin-bottom: 2%;
 }
 
 body {
@@ -52,6 +52,15 @@ p {
     font-style: bold;
 }
 
-.lol{
+.lol {
     margin-left: 10%;
+}
+
+.lititle {
+    font-size: 1.4em;
+}
+
+.yep {
+    font-size: 2.5em;
+    margin-top: 2%;
 }
