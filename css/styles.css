@@ -69,3 +69,15 @@ p {
 .tit {
     text-decoration: underline;
 }
+
+.rdd {
+    border-radius: 20px;
+}
+
+.bighead {
+    border-radius: 60px;
+}
+
+.bt:hover {
+    background-color: orange;
+}
