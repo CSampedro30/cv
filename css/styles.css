@@ -29,6 +29,7 @@ footer, i {
 }
 
 body {
+
     font-family: 'Crimson Text', serif;
 }
 
@@ -60,7 +61,11 @@ p {
     font-size: 1.4em;
 }
 
-.yep {
+.xp {
     font-size: 2.5em;
     margin-top: 2%;
+}
+
+.tit {
+    text-decoration: underline;
 }
